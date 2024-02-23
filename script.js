@@ -26,7 +26,7 @@ const form = document.querySelector('.form'),
 // check geolocation
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(PositionSuccussCallback, () =>
-        alert('Could not get your position!')
+        alert('Could not get your position!\nPlease turn on the VPN!')
     );
 }
 
